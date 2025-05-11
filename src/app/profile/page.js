@@ -11,6 +11,7 @@ import useGetQueryParam from "@/component/utils/commonFunctions";
 import CreateSubUser from "@/component/Applications/SubUserApplicant";
 import CreateSubUsers from "@/component/CreateUsers/CreateSubUser";
 import PageHeader from "@/component/Header/PageHeader";
+import { Box } from "@mui/material";
 
 const AddUser = () => {
   const [collapsed, setCollapsed] = useState(false);
@@ -23,10 +24,10 @@ const AddUser = () => {
   }, [user]);
   return (
     <Layout setSidebarCollapsed={setCollapsed}>
-        <PageHeader title="vijayprasad motital parab" text={"aaaa 3564 B"} />
-        <SectionItem>
-            <DataFields/>
-        </SectionItem>
+      <PageHeader title="vijayprasad motital parab" text={"aaaa 3564 B"} />
+      <Box>
+        {/* <DataFields /> */}
+      </Box>
     </Layout>
   );
 };

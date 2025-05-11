@@ -1,4 +1,4 @@
-const dashboardData = [{ id: 0, status: "New Applications", count: 6 }, { id: 1, status: "Pending Applications", count: 12 }, { id: 2, status: "In Progress Applications", count: 14 }, { id: 3, status: "Rejected Applications", count: 4 }, { id: 4, status: "Completed Applications", count: 105 }, { id: 5, status: "Pending Applications", count: 6 }, { id: 6, status: "In Progress Applications", count: 6 }];
+const dashboardData = [{ id: 0, status: "New Applications", count: 6 }, { id: 1, status: "Pending Applications", count: 12 }, { id: 2, status: "In Progress Applications", count: 14 }, { id: 3, status: "Rejected Applications", count: 4 }, { id: 4, status: "Completed Applications", count: 105 }];
 
 export const loanData = [
     {id: 1, loanType: "Home Loan", status: "Pre-approved", applicantName: "VIJAYPRASAD MOTILAL PARAB", cibilScore: 742, amount: "20,50,000" }, 
